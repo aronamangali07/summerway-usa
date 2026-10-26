@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title data-i18n="pageTitle">SummerWay USA | Работа и путешествия в США для студентов</title>
+  <meta name="description" content="SummerWay USA: консультации по программе Work and Travel USA для студентов Казахстана.">
+  <script>document.documentElement.classList.add('js');</script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+</head>
+<body>
+
+<header class="site-header" id="top">
+  <nav class="nav container">
+    <a href="#top" class="logo">
+      <svg class="logo-mark" viewBox="0 0 64 64" aria-hidden="true">
+        <rect width="64" height="64" rx="14" fill="#0b1f3a"/>
+        <polygon points="17,12 18.2,15.4 21.8,15.5 18.9,17.7 19.9,21.2 17,19.2 14.1,21.2 15.1,17.7 12.2,15.5 15.8,15.4" fill="#ffffff"/>
+        <circle cx="34" cy="36" r="14" fill="#ffd27a"/>
+        <path d="M0 44 C12 38 24 46 36 42 C48 38 56 42 64 40 L64 64 L0 64 Z" fill="#ffffff"/>
+        <path d="M0 54 C14 50 26 56 40 53 C50 51 58 53 64 52 L64 64 L0 64 Z" fill="#c8102e"/>
+      </svg>
+      <span class="logo-text">Summer<span>Way</span> USA</span>
+    </a>
+    <button class="nav-toggle" type="button" aria-label="Открыть меню" data-i18n-aria="menuLabel" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav-links">
+      <li><a href="#benefits" data-i18n="navBenefits">Преимущества</a></li>
+      <li><a href="#steps" data-i18n="navSteps">Как это работает</a></li>
+      <li><a href="#jobs" data-i18n="navJobs">Летняя работа</a></li>
+      <li><a href="#costs" data-i18n="navCosts">Расходы</a></li>
+      <li><a href="#faq" data-i18n="navFaq">Вопросы и ответы</a></li>
+      <li class="language-item">
+        <label class="language-picker">
+          <span class="sr-only" data-i18n="languageLabel">Язык</span>
+          <select id="language-switcher" aria-label="Выбрать язык" data-i18n-aria="languageLabel">
+            <option value="ru">Русский</option>
+            <option value="en">English</option>
+            <option value="kk">Қазақша</option>
+          </select>
+        </label>
+      </li>
+      <li><a href="#contact" class="btn btn-red" data-i18n="apply">Оставить заявку</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+  <!-- HERO -->
+  <section class="hero">
+    <div class="cloud c1"></div>
+    <div class="cloud c2"></div>
+    <div class="sun"></div>
+    <div class="container hero-content">
+      <p class="eyebrow" data-i18n="heroEyebrow">Work and Travel USA · Для студентов из Казахстана</p>
+      <h1 data-i18n-html="heroTitle">Твоё американское <em>лето</em> начинается здесь.</h1>
+      <p class="lead" data-i18n="heroLead">Работай на сезонной работе, знакомься с людьми со всего мира и путешествуй по США. Мы поможем разобраться в каждом этапе и подготовиться к поездке.</p>
+      <div class="hero-actions">
+        <a href="#contact" class="btn btn-red" data-i18n="apply">Оставить заявку</a>
+        <a href="#steps" class="btn btn-ghost" data-i18n="seeSteps">Узнать, как это работает</a>
+      </div>
+      <p class="fine" data-i18n="heroDisclaimer">Участие зависит от соответствия требованиям программы, одобрения спонсора и решения о выдаче визы, которое принимает правительство США. Гарантий нет.</p>
+    </div>
+
+    <svg class="landscape" viewBox="0 0 1440 360" preserveAspectRatio="xMidYMax slice" aria-hidden="true">
+      <path d="M0,260 L120,170 L210,230 L330,140 L450,230 L560,180 L700,250 L820,160 L940,235 L1080,150 L1200,230 L1320,170 L1440,240 L1440,360 L0,360Z" fill="#3b5f94" opacity=".55"/>
+      <g fill="#14305a">
+        <rect x="60" y="250" width="40" height="100"/>
+        <rect x="105" y="225" width="34" height="125"/>
+        <rect x="145" y="265" width="30" height="85"/>
+        <rect x="180" y="205" width="44" height="145"/>
+        <rect x="200" y="185" width="2" height="22"/>
+        <rect x="230" y="240" width="36" height="110"/>
+        <rect x="272" y="190" width="40" height="160"/>
+        <rect x="280" y="170" width="24" height="22"/>
+        <rect x="288" y="150" width="8" height="22"/>
+        <rect x="291" y="130" width="2" height="22"/>
+        <rect x="318" y="235" width="38" height="115"/>
+        <rect x="360" y="255" width="30" height="95"/>
+        <rect x="395" y="215" width="46" height="135"/>
+        <rect x="447" y="245" width="32" height="105"/>
+        <rect x="485" y="180" width="42" height="170"/>
+        <rect x="493" y="160" width="26" height="22"/>
+        <rect x="502" y="135" width="8" height="26"/>
+        <rect x="505" y="115" width="2" height="22"/>
+        <rect x="533" y="230" width="36" height="120"/>
+        <rect x="575" y="260" width="30" height="90"/>
+        <rect x="610" y="220" width="40" height="130"/>
+        <rect x="655" y="250" width="34" height="100"/>
+        <rect x="1010" y="265" width="30" height="85"/>
+        <rect x="1045" y="245" width="34" height="105"/>
+        <rect x="1085" y="270" width="28" height="80"/>
+        <rect x="1120" y="255" width="32" height="95"/>
+      </g>
+      <path d="M0,300 C240,250 480,330 720,290 C960,250 1200,320 1440,280 L1440,360 L0,360Z" fill="#ffffff"/>
+    </svg>
+  </section>
+
+  <!-- BENEFITS -->
+  <section id="benefits" class="section">
+    <div class="container">
+      <p class="eyebrow dark" data-i18n="benefitsEyebrow">Почему студенты выбирают программу</p>
+      <h2 data-i18n="benefitsTitle">Лето, которое даст больше, чем строчку в резюме</h2>
+      <div class="grid grid-4">
+        <article class="card reveal"><span class="num">01</span><h3 data-i18n="benefit1Title">Настоящий трудовой опыт</h3><p data-i18n="benefit1Text">Проведи летние каникулы, работая в сфере гостеприимства и отдыха в США.</p></article>
+        <article class="card reveal"><span class="num">02</span><h3 data-i18n="benefit2Title">Ежедневная практика английского</h3><p data-i18n="benefit2Text">Общайся на английском с коллегами и гостями — так ты быстрее обретёшь уверенность.</p></article>
+        <article class="card reveal"><span class="num">03</span><h3 data-i18n="benefit3Title">Культурный обмен</h3><p data-i18n="benefit3Text">Поживи в новом месте и познакомься со студентами из разных стран.</p></article>
+        <article class="card reveal"><span class="num">04</span><h3 data-i18n="benefit4Title">Время для путешествий</h3><p data-i18n="benefit4Text">Многие участники используют время в конце программы, чтобы увидеть больше уголков страны.</p></article>
+      </div>
+    </div>
+  </section>
+
+  <!-- WHY CHOOSE US -->
+<section id="why" class="section section-soft">
+  <div class="container">
+    <p class="eyebrow dark">Почему выбирают SummerWay</p>
+    <h2>Честно, понятно и с заботой о вас</h2>
+    <p class="sub">Мы не обещаем невозможного. Мы помогаем разобраться в программе, подготовиться и пройти каждый этап осознанно.</p>
+
+    <div class="grid grid-4 why-grid">
+      <article class="card reveal"><span class="num">01</span><h3>Без ложных обещаний</h3><p>Мы прямо говорим: виза и работа не гарантируются. Вы заранее знаете, от чего зависит результат.</p></article>
+      <article class="card reveal"><span class="num">02</span><h3>Понятный процесс</h3><p>Весь путь разбит на простые шаги: от проверки условий до инструктажа перед вылетом.</p></article>
+      <article class="card reveal"><span class="num">03</span><h3>Подготовка к собеседованию</h3><p>Помогаем подготовиться к разговору с работодателем и к визовому интервью.</p></article>
+      <article class="card reveal"><span class="num">04</span><h3>Прозрачные расходы</h3><p>Заранее объясняем, из чего складывается бюджет, чтобы не было неприятных сюрпризов.</p></article>
+      <article class="card reveal"><span class="num">05</span><h3>Объясняем на вашем языке</h3><p>Консультации на русском и казахском языках, чтобы вы понимали каждый документ.</p></article>
+      <article class="card reveal"><span class="num">06</span><h3>Поддержка перед отъездом</h3><p>Рассказываем про дорогу, жильё, безопасность и права участника программы.</p></article>
+      <article class="card reveal"><span class="num">07</span><h3>Работа через спонсора</h3><p>Участие проходит через американского спонсора программы, аккредитованного Госдепартаментом США.</p></article>
+      <article class="card reveal"><span class="num">08</span><h3>Бесплатный первый вопрос</h3><p>Задайте вопрос через форму заявки, и мы ответим, подходите ли вы под условия программы.</p></article>
+    </div>
+
+    <div class="story reveal">
+      <div class="story-label">Наш опыт</div>
+      <div class="story-body">
+        <h3>Более 20 лет с программами обмена</h3>
+        <p>Мы работаем с международными программами обмена более 20 лет. За это время более 100 000 студентов приняли участие в наших программах, и этот опыт помогает нам объяснять условия просто и честно.</p>
+        <p>Мы знаем, какие вопросы возникают у студентов и родителей, и отвечаем на них заранее: сколько это стоит, что потребуется от вас и от чего зависит результат. Виза и трудоустройство зависят от решений американского спонсора, работодателей и Посольства США, поэтому мы никогда не обещаем гарантий.</p>
+      </div>
+    </div>
+
+    <div class="stats reveal">
+      <div class="stat"><strong>20+</strong><span>лет работы с программами обмена</span></div>
+      <div class="stat"><strong>100 000+</strong><span>участников наших программ</span></div>
+      <div class="stat"><strong>6</strong><span>понятных шагов от заявки до вылета</span></div>
+    </div>
+
+    <div class="why-cta">
+      <a href="#contact" class="btn btn-red">Получить консультацию</a>
+    </div>
+  </div>
+</section>
+
+  <!-- STEPS -->
+  <section id="steps" class="section section-navy">
+    <div class="container">
+      <p class="eyebrow" data-i18n="stepsEyebrow">Этапы участия</p>
+      <h2 data-i18n="stepsTitle">От первого вопроса до отъезда</h2>
+      <ol class="steps">
+        <li class="reveal"><b data-i18n="step1Title">Проверь требования</b><span data-i18n="step1Text">Убедись, что ты учишься в университете на очной форме и соответствуешь правилам программы.</span></li>
+        <li class="reveal"><b data-i18n="step2Title">Получи консультацию</b><span data-i18n="step2Text">Мы расскажем о программе, расходах и твоих обязанностях.</span></li>
+        <li class="reveal"><b data-i18n="step3Title">Подготовь документы</b><span data-i18n="step3Text">Собери документы, подтверждающие статус студента и уровень английского.</span></li>
+        <li class="reveal"><b data-i18n="step4Title">Выбери работу и пройди отбор спонсора</b><span data-i18n="step4Text">Пройди процесс трудоустройства, предусмотренный спонсором программы.</span></li>
+        <li class="reveal"><b data-i18n="step5Title">Пройди собеседование на визу</b><span data-i18n="step5Text">Посети собеседование. Решение принимает посольство США.</span></li>
+        <li class="reveal"><b data-i18n="step6Title">Посети инструктаж перед отъездом</b><span data-i18n="step6Text">Узнай о поездке, жилье, безопасности и о том, чего ожидать по прибытии.</span></li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- JOBS -->
+  <section id="jobs" class="section">
+    <div class="container">
+      <p class="eyebrow dark" data-i18n="jobsEyebrow">Летняя работа</p>
+      <h2 data-i18n="jobsTitle">Популярные направления сезонной работы</h2>
+      <p class="sub" data-i18n="jobsIntro">Примеры распространённых вакансий. Доступность зависит от сезона и не гарантируется.</p>
+      <div class="grid grid-3">
+        <div class="job reveal"><h3 data-i18n="job1Title">Отели и курорты</h3><p data-i18n="job1Text">Работа на ресепшене, уборка, обслуживание гостей.</p></div>
+        <div class="job reveal"><h3 data-i18n="job2Title">Рестораны и кафе</h3><p data-i18n="job2Text">Официант, хостес, помощь на кухне, работа в пекарне.</p></div>
+        <div class="job reveal"><h3 data-i18n="job3Title">Парки развлечений</h3><p data-i18n="job3Text">Обслуживание аттракционов, точки питания, помощь гостям.</p></div>
+        <div class="job reveal"><h3 data-i18n="job4Title">Магазины и сувенирные лавки</h3><p data-i18n="job4Text">Кассир, продавец-консультант, выкладка товаров.</p></div>
+        <div class="job reveal"><h3 data-i18n="job5Title">Пляжи и зоны отдыха</h3><p data-i18n="job5Text">Прокат оборудования, помощь в обслуживании объектов.</p></div>
+        <div class="job reveal"><h3 data-i18n="job6Title">Аквапарки и бассейны</h3><p data-i18n="job6Text">Обслуживание гостей, работа в точках питания, помощь в обслуживании.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- COSTS -->
+  <section id="costs" class="section section-soft">
+    <div class="container">
+      <p class="eyebrow dark">Стоимость</p>
+      <h2>Два тарифа на выбор</h2>
+      <p class="sub">Выберите формат, который подходит вам: найти работодателя самостоятельно или получить помощь с поиском работы.</p>
+
+      <div class="tariffs">
+        <article class="tariff reveal">
+          <h3>Self</h3>
+          <p class="tariff-tag">Вы сами находите работодателя</p>
+          <p class="tariff-price">$2 800</p>
+          <ul>
+            <li>Консультации и проверка соответствия условиям программы</li>
+            <li>Помощь с документами и регистрацией у спонсора</li>
+            <li>Подготовка к визовому интервью</li>
+            <li>Инструктаж перед вылетом</li>
+          </ul>
+          <a href="#contact" class="btn btn-red">Выбрать Self</a>
+        </article>
+
+        <article class="tariff tariff-featured reveal">
+          <span class="tariff-badge">Полное сопровождение</span>
+          <h3>Full</h3>
+          <p class="tariff-tag">Мы помогаем с поиском работы</p>
+          <p class="tariff-price">$3 500</p>
+          <ul>
+            <li>Всё, что входит в тариф Self</li>
+            <li>Помощь в подборе вакансий и работодателей</li>
+            <li>Подготовка к собеседованиям с работодателями</li>
+            <li>Сопровождение на этапе получения работы</li>
+          </ul>
+          <a href="#contact" class="btn btn-red">Выбрать Full</a>
+        </article>
+      </div>
+
+      <h3 class="costs-subtitle">Дополнительные платежи</h3>
+      <div class="cost-grid">
+        <article class="cost-card reveal">
+          <h3>Консульский сбор</h3>
+          <p class="cost-price">$185</p>
+          <p>Оплачивается за подачу заявления на визу J-1. Сумма устанавливается правительством США.</p>
+        </article>
+        <article class="cost-card reveal">
+          <h3>Сбор SEVIS</h3>
+          <p class="cost-price">$35</p>
+          <p>Взнос за регистрацию в системе учёта участников программ обмена США.</p>
+        </article>
+        <article class="cost-card reveal">
+          <h3>Страховка</h3>
+          <p class="cost-price">покрытие $100 000</p>
+          <p>Медицинская страховка на время программы. Условия и стоимость уточняются на консультации.</p>
+        </article>
+      </div>
+
+      <p class="cost-note">Расходы на авиабилеты и жильё в первые недели не входят в тариф и зависят от даты вылета, города и выбранной работы. Консульский сбор и SEVIS устанавливает правительство США, а суммы могут меняться: перед оплатой проверяйте их на официальных сайтах.</p>
+
+      <div class="compare reveal">
+        <h3>Чем отличаются Full и Self</h3>
+        <div class="compare-grid">
+          <div class="compare-col">
+            <h4>Self</h4>
+            <p>Вы сами ищете работодателя и договариваетесь о работе. Мы помогаем с документами, регистрацией у спонсора и подготовкой к визовому интервью. Подходит тем, кто уверенно владеет английским и готов искать вакансии самостоятельно.</p>
+          </div>
+          <div class="compare-col">
+            <h4>Full</h4>
+            <p>Мы помогаем не только с документами и визой, но и с подбором вакансий и подготовкой к собеседованиям. Подходит тем, кто хочет больше поддержки на этапе поиска работы.</p>
+          </div>
+        </div>
+        <p class="compare-note">В обоих тарифах трудоустройство и виза не гарантируются: решение принимают работодатели, спонсор и Посольство США.</p>
+      </div>
+    </div>
+  </section>
+
+<!-- DEMO-BLOCK: budget calculator -->
+<section id="calculator" class="section">
+  <div class="container narrow">
+    <p class="eyebrow dark">Калькулятор <span class="demo-tag">Демо</span></p>
+    <h2>Рассчитайте примерный бюджет</h2>
+    <p class="sub">Выберите тариф и добавьте свои данные. Результат ориентировочный.</p>
+
+    <div class="calc reveal" id="budget-calc">
+      <fieldset class="calc-group">
+        <legend>Тариф</legend>
+        <label class="choice"><input type="radio" name="tariff" value="self" checked> Self — $2 800</label>
+        <label class="choice"><input type="radio" name="tariff" value="full"> Full — $3 500</label>
+      </fieldset>
+
+      <fieldset class="calc-group">
+        <legend>Официальные сборы</legend>
+        <label class="choice"><input type="checkbox" id="calc-fees" checked> Консульский сбор ($185) и SEVIS ($35)</label>
+      </fieldset>
+
+      <div class="calc-group">
+        <label for="calc-insurance">Страховка, $ (если знаете цену)</label>
+        <input type="number" id="calc-insurance" min="0" step="10" value="0" inputmode="numeric">
+      </div>
+
+      <div class="calc-group">
+        <label for="calc-flights">Авиабилеты, $ (ваша оценка)</label>
+        <input type="number" id="calc-flights" min="0" step="50" value="0" inputmode="numeric">
+      </div>
+
+      <div class="calc-result" aria-live="polite">
+        <p class="calc-total-label">Ориентировочный итог</p>
+        <p class="calc-total" id="calc-total">$2 800</p>
+        <ul class="calc-breakdown" id="calc-breakdown"></ul>
+      </div>
+
+      <p class="calc-note">Расчёт ориентировочный и не является договором. Расходы на жильё и питание на старте сюда не входят. Консульский сбор и SEVIS устанавливает правительство США, суммы могут меняться. Точную смету вы получите на консультации.</p>
+    </div>
+  </div>
+</section>
+
+<!-- DEMO-BLOCK: eligibility quiz -->
+<section id="quiz" class="section section-navy">
+  <div class="container narrow">
+    <p class="eyebrow">Быстрый тест <span class="demo-tag">Демо</span></p>
+    <h2>Подхожу ли я под программу?</h2>
+    <p class="lead small">Ответьте на 5 вопросов. Это ориентир, а не окончательное решение: условия определяет американский спонсор.</p>
+
+    <div class="quiz reveal" id="eligibility-quiz">
+      <div class="quiz-q">
+        <p class="quiz-title">1. Вы студент очной формы обучения вуза?</p>
+        <label class="choice"><input type="radio" name="q1" value="yes"> Да</label>
+        <label class="choice"><input type="radio" name="q1" value="no"> Нет</label>
+      </div>
+      <div class="quiz-q">
+        <p class="quiz-title">2. Вам уже исполнилось 18 лет?</p>
+        <label class="choice"><input type="radio" name="q2" value="yes"> Да</label>
+        <label class="choice"><input type="radio" name="q2" value="no"> Нет</label>
+      </div>
+      <div class="quiz-q">
+        <p class="quiz-title">3. Вы завершите минимум один семестр к началу программы?</p>
+        <label class="choice"><input type="radio" name="q3" value="yes"> Да</label>
+        <label class="choice"><input type="radio" name="q3" value="no"> Нет</label>
+      </div>
+      <div class="quiz-q">
+        <p class="quiz-title">4. Какой у вас уровень английского?</p>
+        <label class="choice"><input type="radio" name="q4" value="a1"> A1 или ниже</label>
+        <label class="choice"><input type="radio" name="q4" value="a2b1"> A2–B1</label>
+        <label class="choice"><input type="radio" name="q4" value="b1plus"> B1 и выше</label>
+        <label class="choice"><input type="radio" name="q4" value="unsure"> Не знаю</label>
+      </div>
+      <div class="quiz-q">
+        <p class="quiz-title">5. Вы готовы вернуться в Казахстан после окончания программы?</p>
+        <label class="choice"><input type="radio" name="q5" value="yes"> Да</label>
+        <label class="choice"><input type="radio" name="q5" value="no"> Нет</label>
+      </div>
+
+      <button type="button" class="btn btn-red" id="quiz-submit">Узнать результат</button>
+      <div class="quiz-result" id="quiz-result" role="status" aria-live="polite"></div>
+    </div>
+  </div>
+</section>
+
+  <!-- FAQ -->
+  <section id="faq" class="section">
+    <div class="container narrow">
+      <p class="eyebrow dark" data-i18n="faqEyebrow">Вопросы и ответы</p>
+      <h2 data-i18n="faqTitle">Частые вопросы</h2>
+
+      <details class="reveal">
+        <summary data-i18n="faq1Title">Кто может подать заявку?</summary>
+        <div class="answer" data-i18n-html="faq1Answer">
+          <p>Программа Work and Travel USA предназначена для студентов, которые хотят провести лето в США, получить международный опыт работы, улучшить английский язык и познакомиться с американской культурой.</p>
+          <p><strong>Вы можете подать заявку, если:</strong></p>
+          <ul>
+            <li>Вы являетесь студентом очной формы обучения в аккредитованном вузе за пределами США.</li>
+            <li>Вам исполнилось 18 лет.</li>
+            <li>Вы владеете английским языком на уровне, достаточном для общения и выполнения рабочих обязанностей.</li>
+            <li>Вы успешно завершили как минимум один семестр обучения в университете к началу программы.</li>
+            <li>Вы готовы соблюдать правила программы и вернуться в свою страну после её окончания.</li>
+          </ul>
+          <p class="note"><strong>Важно:</strong> окончательное решение об участии зависит от требований американского спонсора, работодателя и условий получения визы J-1. Требования к возрасту, обучению и английскому языку могут различаться.</p>
+        </div>
+      </details>
+
+      <details class="reveal">
+        <summary data-i18n="faq2Title">Виза гарантирована?</summary>
+        <div class="answer" data-i18n-html="faq2Answer">
+          <p>Нет. Решение о визе принимает только Посольство или консульство США. Мы помогаем подготовиться к собеседованию, но результат гарантировать не можем.</p>
+        </div>
+      </details>
+
+      <details class="reveal">
+        <summary data-i18n="faq3Title">Работа гарантирована?</summary>
+        <div class="answer" data-i18n-html="faq3Answer">
+          <p><strong>Нет, трудоустройство не гарантируется.</strong> Мы помогаем участникам подобрать подходящие вакансии и пройти процесс трудоустройства. Доступность конкретных вакансий зависит от работодателей и условий программы. Окончательное трудоустройство зависит от успешного прохождения отбора и выполнения требований работодателя.</p>
+          <p>Наша цель — помочь вам подготовиться к работе в США на каждом этапе программы.</p>
+        </div>
+      </details>
+
+      <details class="reveal">
+        <summary data-i18n="faq4Title">Какой уровень английского нужен?</summary>
+        <div class="answer" data-i18n-html="faq4Answer">
+          <p>Для участия в программе Work and Travel USA необходимо владеть английским языком на уровне, достаточном для повседневного общения и выполнения рабочих обязанностей.</p>
+          <p><strong>Рекомендуемый уровень — A2–B1 и выше.</strong></p>
+          <p>Вам нужно уметь:</p>
+          <ul>
+            <li>Общаться с работодателем и коллегами.</li>
+            <li>Понимать инструкции на рабочем месте.</li>
+            <li>Отвечать на вопросы во время собеседования.</li>
+            <li>Объясняться в повседневных ситуациях.</li>
+          </ul>
+          <p>Не обязательно говорить идеально! Главное — понимать английскую речь и уметь выражать свои мысли. Точный уровень определяется требованиями спонсора и работодателя.</p>
+        </div>
+      </details>
+
+      <details class="reveal">
+        <summary data-i18n="faq5Title">Когда лучше начать?</summary>
+        <div class="answer" data-i18n-html="faq5Answer">
+          <p>Чем раньше, тем лучше: подготовка документов, подбор вакансии и собеседования занимают время. Начинайте за несколько месяцев до лета.</p>
+        </div>
+      </details>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section section-navy">
+    <div class="container contact">
+      <div>
+        <p class="eyebrow" data-i18n="apply">Оставить заявку</p>
+        <h2 data-i18n="contactTitle">Расскажи о себе</h2>
+        <p class="lead small" data-i18n="contactLead">Заполни форму, и мы ответим тебе по электронной почте, чтобы обсудить дальнейшие шаги.</p>
+      </div>
+      <form id="contact-form" action="https://formspree.io/f/xgaaaopq" method="POST">
+        <label><span data-i18n="formName">Имя и фамилия</span><input type="text" name="name" required></label>
+        <label><span data-i18n="formEmail">Электронная почта</span><input type="email" name="email" required></label>
+        <label><span data-i18n="formPhone">Телефон / WhatsApp</span><input type="tel" name="phone"></label>
+        <label><span data-i18n="formUniversity">Университет и курс</span><input type="text" name="university"></label>
+        <label><span data-i18n="formMessage">Сообщение</span><textarea name="message" rows="4"></textarea></label>
+
+        <input type="text" name="_gotcha" tabindex="-1" autocomplete="off" style="display:none">
+
+        <label class="consent">
+          <input type="checkbox" name="consent" value="yes" required>
+          <span data-i18n="consent">Я согласен(на), что SummerWay USA может использовать мои данные, чтобы связаться со мной по поводу этого обращения.</span>
+        </label>
+
+        <button type="submit" class="btn btn-red" id="send-button" data-i18n="send">Отправить</button>
+        <p id="form-status" role="status"></p>
+      </form>
+    </div>
+  </section>
+</main>
+
+<!-- DEMO-BLOCK: development status (remove before publishing) -->
+<section class="demo-status" aria-labelledby="demo-status-title">
+  <div class="container">
+    <h2 id="demo-status-title" class="demo-status-title"><span class="demo-tag">Демо</span> Статус разработки</h2>
+    <p class="demo-status-sub">Это демонстрационная версия. Ниже видно, что уже готово и над чем идёт работа.</p>
+    <div class="demo-status-grid">
+      <div>
+        <h3>Готово</h3>
+        <ul class="status-list done">
+          <li>Дизайн и адаптивная вёрстка (телефон и компьютер)</li>
+          <li>Форма заявки с отправкой на почту</li>
+          <li>Тарифы Full и Self, официальные сборы</li>
+          <li>Калькулятор бюджета</li>
+          <li>Тест «Подхожу ли я под программу?»</li>
+          <li>Кнопки WhatsApp и Telegram</li>
+        </ul>
+      </div>
+      <div>
+        <h3>В работе</h3>
+        <ul class="status-list todo">
+          <li>Подключение номера WhatsApp и аккаунта Telegram клиента</li>
+          <li>Русская и казахская версии сайта</li>
+          <li>Настоящие фото, команда и отзывы (с согласия людей)</li>
+          <li>Политика конфиденциальности</li>
+          <li>Домен и публикация сайта</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="sponsors" aria-labelledby="sponsors-title">
+  <div class="container">
+    <h2 id="sponsors-title" class="sponsors-title">Полезные ссылки: спонсоры программы в США</h2>
+    <p class="sponsors-text">Участие в Work and Travel USA проходит через американского спонсора, аккредитованного Госдепартаментом США. Ниже ссылки на сайты двух организаций, чтобы вы могли познакомиться с ними сами.</p>
+    <ul class="sponsors-list">
+      <li><a href="https://allianceabroad.com/" target="_blank" rel="noopener noreferrer">Alliance Abroad</a></li>
+      <li><a href="https://www.ciee.org/" target="_blank" rel="noopener noreferrer">CIEE</a></li>
+    </ul>
+    <p class="sponsors-note">Ссылки даны только для информации и не означают партнёрства или рекомендации, если иное не указано отдельно.</p>
+  </div>
+</section>
+
+<div class="flag-strip" aria-hidden="true"></div>
+<footer class="footer">
+  <div class="container">
+    <p><strong>SummerWay USA</strong> — консультации по программе Work and Travel USA для студентов Казахстана. Участие зависит от условий американского спонсора, работодателей и решения Посольства США. Виза и трудоустройство не гарантируются.</p>
+    <p>© <span id="year"></span> SummerWay USA. Все права защищены.</p>
+  </div>
+</footer>
+
+<!-- Floating contact buttons -->
+<div class="float-contact">
+  <a class="float-btn float-wa" href="https://wa.me/77XXXXXXXXX" target="_blank" rel="noopener noreferrer">WhatsApp</a>
+  <a class="float-btn float-tg" href="https://t.me/REPLACE_USERNAME" target="_blank" rel="noopener noreferrer">Telegram</a>
+</div>
+<div class="demo-flag" aria-hidden="true">ДЕМО · сайт в разработке</div>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<script src="script.js"></script>
+</body>
+</html>
